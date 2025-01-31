@@ -4,7 +4,7 @@ document.getElementById('login_form').addEventListener('submit', function(event)
   const username = document.getElementById('Username').value;
   const password = document.getElementById('password').value;
 
-  if (username === 'gokul' && password === 'Gokul#123') {
+  if (username === 'sindhu' && password === 'Gokul#123') {
       document.getElementById('loginStatus').textContent = 'Login successful!';
       document.getElementById('loginStatus').style.color = 'green';
       //if logged int succesfully, it will redirect to this page.
